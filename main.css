@@ -1,0 +1,236 @@
+body {
+  font-family: 'Sofia Pro', sans-serif;
+  background-color: #2992F3;
+  margin: 0;
+  text-align: left;
+}
+
+/* width가 있을 경우 margin으로 센터 조절*/
+h1 {
+  padding-top: 20vh;
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 6rem;
+  color: white;
+  line-height: 2;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: 'Sofia Pro', sans-serif;
+  font-weight: bold;
+  margin: 0 auto auto auto;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+
+h3 {
+  font-family: 'Sofia Pro', sans-serif;
+  margin: 0;
+  font-size: 2rem;
+  color: #2992F3;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'Sofia Pro', sans-serif;
+  margin: 0;
+  font-size: 4rem;
+  color: white;
+}
+
+p {
+  font-family: 'Sofia Pro', sans-serif;
+  font-size: 1rem;
+  color: rgb(53, 53, 53);
+}
+
+a {
+  font-family: 'Sofia Pro', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  margin: 0 auto 0 auto;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: medium;
+  width: 10%;
+}
+
+.top {
+  padding-left: 10vw;
+  height: 90vh;
+}
+
+.logo {
+  position: absolute;
+  width: 20vw;
+  top: 30vh;
+  left: 60%;
+  z-index: 99;
+}
+
+
+
+.HowItWorks {
+  width: auto;
+  height: 100vh;
+  background-color: white;
+  z-index: 98;
+}
+
+.HIWheading {
+  position: relative;
+  padding-top: 13vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #2992F3;
+}
+
+.HIWparagraph {
+  position: relative;
+  text-align: center;
+  font-weight: medium;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #2992F3;
+}
+
+.gridContainer {
+  position: relative;
+  top: 10vh;
+  left: 17vw;
+  display: grid;
+  width: 70vw;
+  height: 70vh;
+  grid-template-columns: 20vw 20vw 20vw;
+  grid-template-rows: auto 3rem auto;
+  grid-gap: 3rem;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  text-align: center;
+  border-radius: 20px;
+}
+
+.box1 {
+  background-size: cover;
+  background-image: url("https://i.ibb.co/r5G0cn9/img1.png");
+}
+
+.box2 {
+  background-size: cover;
+  background-image: url("https://i.ibb.co/MG22bQD/img2.png");
+}
+
+.box3 {
+  background-size: cover;
+  background-image: url("https://i.ibb.co/MG22bQD/img2.png");
+}
+
+.boxH {
+  height: 10vh;
+}
+
+.boxP {
+  height: 15vh;
+}
+
+.boxBG {
+  background-size: cover;
+  background-image: url("https://i.ibb.co/MG22bQD/img2.png");
+}
+
+.btn1DIV {
+  padding-top: 3rem;
+}
+
+
+.btn1 {
+  background: white;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Sofia Pro', sans-serif;
+  font-weight: semi-bold;
+  color: #2992F3;
+  font-size: 1.8rem;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #dcdcff;
+}
+
+
+.bottom-container {
+  margin: 0;
+  width: auto;
+  height: 80vh;
+}
+
+.boxBottomH {
+  height: 10vh;
+  padding-top: 15%;
+}
+
+.bottomGridContainer {
+  position: relative;
+  padding-top: 10px;
+  top: 10vh;
+  left: 10vw;
+  display: grid;
+  width: 80vw;
+  height: 50vh;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: auto 3rem;
+  grid-gap: 3rem;
+}
+
+.btn2DIV {
+  position: relative;
+  width: 80vw;
+  height: 10vh;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.btn2 {
+  left: 10vw;
+  position: relative;
+  height: 10vh;
+  background: #FFB800;
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 30px;
+  font-family: 'Sofia Pro', sans-serif;
+  font-weight: bold;
+  color: rgb(63, 63, 63);
+  font-size: 2rem;
+  padding: 20px 30vw 20px 30vw;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  color: black;
+}
+
+.footer-container {
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  background-color: #ffffff;
+}
+
+.copyright {
+  color: #2992F3;
+}
